@@ -31,7 +31,8 @@
 						<thead>
 							<tr>
 								<td class="text-center">Image</td>
-								<td class="text-left">Product Name</td>
+								<td class="text-left">Product Details</td>
+								<td class="text-center">Part Number Brand</td>
 								<td class="text-center">Order ID</td>
 								<td class="text-center">Qty</td>
 								<td class="text-center">Status</td>
@@ -46,8 +47,10 @@
 									<a href="product.php"><img width="85" class="img-thumbnail" title="Aspire Ultrabook Laptop" alt="Aspire Ultrabook Laptop" src="image/catalog/demo/product/replacement/1.jpg">
 									</a>
 								</td>
-								<td class="text-left"><a href="product.php">Aspire Ultrabook Laptop</a>
+								<td class="text-left">
+									<a href="product.php">Aspire Ultrabook Laptop</a>
 								</td>
+								<td class="text-center">-</td>
 								<td class="text-center">#214521</td>
 								<td class="text-center">1</td>
 								<td class="text-center">Shipped</td>
@@ -63,6 +66,7 @@
 								</td>
 								<td class="text-left"><a href="product.php">Xitefun Causal Wear Fancy Shoes</a>
 								</td>
+								<td class="text-center">-</td>
 								<td class="text-center">#1565245</td>
 								<td class="text-center">1</td>
 								<td class="text-center">Shipped</td>

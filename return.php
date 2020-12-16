@@ -51,9 +51,9 @@
 							</div>
 						</div>
 						<div class="form-group required">
-							<label for="input-telephone" class="col-sm-2 control-label">Telephone</label>
+							<label for="input-telephone" class="col-sm-2 control-label">Phone</label>
 							<div class="col-sm-10">
-								<input type="text" class="form-control" id="input-telephone" placeholder="Telephone" value="" name="telephone">
+								<input type="text" class="form-control" id="input-telephone" placeholder="Phone" value="" name="phone">
 							</div>
 						</div>
 						<div class="form-group required">
@@ -82,9 +82,9 @@
 							</div>
 						</div>
 						<div class="form-group required">
-							<label for="input-model" class="col-sm-2 control-label">Product Code</label>
+							<label for="input-model" class="col-sm-2 control-label">Part Number</label>
 							<div class="col-sm-10">
-								<input type="text" class="form-control" id="input-model" placeholder="Product Code" value="" name="model">
+								<input type="text" class="form-control" id="input-model" placeholder="Part Number" value="" name="model">
 							</div>
 						</div>
 						<div class="form-group">

@@ -60,17 +60,17 @@
 							</div>
 						</div>
 						<div class="form-group required">
-							<label class="col-sm-2 control-label" for="input-telephone">Telephone</label>
+							<label class="col-sm-2 control-label" for="input-telephone">Phone</label>
 							<div class="col-sm-10">
-								<input type="tel" name="telephone" value="" placeholder="Telephone" id="input-telephone" class="form-control">
+								<input type="tel" name="telephone" value="" placeholder="Phone" id="input-telephone" class="form-control">
 							</div>
 						</div>
-						<div class="form-group">
+						<!-- <div class="form-group">
 							<label class="col-sm-2 control-label" for="input-fax">Fax</label>
 							<div class="col-sm-10">
 								<input type="text" name="fax" value="" placeholder="Fax" id="input-fax" class="form-control">
 							</div>
-						</div>
+						</div> -->
 					</fieldset>
 					<fieldset id="address">
 						<legend>Your Address</legend>
@@ -81,15 +81,15 @@
 							</div>
 						</div>
 						<div class="form-group required">
-							<label class="col-sm-2 control-label" for="input-address-1">Address 1</label>
+							<label class="col-sm-2 control-label" for="input-address-1">GST(Optional)</label>
 							<div class="col-sm-10">
-								<input type="text" name="address_1" value="" placeholder="Address 1" id="input-address-1" class="form-control">
+								<input type="text" name="address_1" value="" placeholder="GST(Optional)" id="input-address-1" class="form-control">
 							</div>
 						</div>
 						<div class="form-group">
-							<label class="col-sm-2 control-label" for="input-address-2">Address 2</label>
+							<label class="col-sm-2 control-label" for="input-address-2">Address</label>
 							<div class="col-sm-10">
-								<input type="text" name="address_2" value="" placeholder="Address 2" id="input-address-2" class="form-control">
+								<input type="text" name="address_2" value="" placeholder="Address" id="input-address-2" class="form-control">
 							</div>
 						</div>
 						<div class="form-group required">
@@ -99,9 +99,22 @@
 							</div>
 						</div>
 						<div class="form-group required">
-							<label class="col-sm-2 control-label" for="input-postcode">Post Code</label>
+							<label class="col-sm-2 control-label" for="input-postcode">Pin Code</label>
 							<div class="col-sm-10">
-								<input type="text" name="postcode" value="" placeholder="Post Code" id="input-postcode" class="form-control">
+								<input type="text" name="postcode" value="" placeholder="Pin Code" id="input-postcode" class="form-control">
+							</div>
+						</div>
+						<div class="form-group required">
+							<label class="col-sm-2 control-label" for="input-zone">Region / State</label>
+							<div class="col-sm-10">
+								<select name="zone_id" id="input-zone" class="form-control">
+									<option value=""> --- Please Select --- </option>
+									<option value="3513">Aberdeen</option>
+									<option value="3514">Aberdeenshire</option>
+									<option value="3515">Anglesey</option>
+									<option value="3516">Angus</option>
+								  
+								</select>
 							</div>
 						</div>
 						<div class="form-group required">
@@ -116,19 +129,6 @@
 									<option value="4">American Samoa</option>
 									<option value="5">Andorra</option>
 									<option value="6">Angola</option>
-								</select>
-							</div>
-						</div>
-						<div class="form-group required">
-							<label class="col-sm-2 control-label" for="input-zone">Region / State</label>
-							<div class="col-sm-10">
-								<select name="zone_id" id="input-zone" class="form-control">
-									<option value=""> --- Please Select --- </option>
-									<option value="3513">Aberdeen</option>
-									<option value="3514">Aberdeenshire</option>
-									<option value="3515">Anglesey</option>
-									<option value="3516">Angus</option>
-								  
 								</select>
 							</div>
 						</div>
@@ -148,7 +148,7 @@
 							</div>
 						</div>
 					</fieldset>
-					<fieldset>
+				<!-- 	<fieldset>
 						<legend>Newsletter</legend>
 						<div class="form-group">
 							<label class="col-sm-2 control-label">Subscribe</label>
@@ -161,9 +161,9 @@
 								</label>
 							</div>
 						</div>
-					</fieldset>
+					</fieldset> -->
 					<div class="buttons">
-						<div class="pull-right">I have read and agree to the <a href="#" class="agree"><b>Pricing Tables</b></a>
+						<div class="pull-right">I have read and agree to the <a href="javascript:void(0);" class="agree">Terms & Conditions</a>
 							<input class="box-checkbox" type="checkbox" name="agree" value="1"> &nbsp;
 							<input type="submit" value="Continue" class="btn btn-primary">
 						</div>

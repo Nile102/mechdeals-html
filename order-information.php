@@ -48,7 +48,7 @@
 				<table class="table table-bordered table-hover">
 					<thead>
 						<tr>
-							<td style="width: 50%; vertical-align: top;" class="text-left">Payment Address</td>
+							<td style="width: 50%; vertical-align: top;" class="text-left">Billing Address</td>
 							<td style="width: 50%; vertical-align: top;" class="text-left">Shipping Address</td>
 						</tr>
 					</thead>
@@ -71,8 +71,8 @@
 					<table class="table table-bordered table-hover">
 						<thead>
 							<tr>
-								<td class="text-left">Product Name</td>
-								<td class="text-left">Model</td>
+								<td class="text-left">Product Details</td>
+								<td class="text-left">Part Number Brand</td>
 								<td class="text-right">Quantity</td>
 								<td class="text-right">Price</td>
 								<td class="text-right">Total</td>
@@ -82,7 +82,7 @@
 						<tbody>
 							<tr>
 								<td class="text-left">iPhone5 </td>
-								<td class="text-left">product 11</td>
+								<td class="text-left">-</td>
 								<td class="text-right">1</td>
 								<td class="text-right">$123.20</td>
 								<td class="text-right">$123.20</td>
@@ -107,7 +107,7 @@
 								<td class="text-right">$5.00</td>
 								<td></td>
 							</tr>
-							<tr>
+							<!-- <tr>
 								<td colspan="3"></td>
 								<td class="text-right"><b>Eco Tax (-2.00)</b>
 								</td>
@@ -120,7 +120,7 @@
 								</td>
 								<td class="text-right">$21.20</td>
 								<td></td>
-							</tr>
+							</tr> -->
 							<tr>
 								<td colspan="3"></td>
 								<td class="text-right"><b>Total</b>

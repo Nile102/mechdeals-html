@@ -32,15 +32,7 @@
 				
 					<div class="account-border">
 						<div class="row">
-							<div class="col-sm-6 new-customer">
-								<div class="well">
-									<h2><i class="fa fa-file-o" aria-hidden="true"></i> New Customer</h2>
-									<p>By creating an account you will be able to shop faster, be up to date on an order's status, and keep track of the orders you have previously made.</p>
-								</div>
-								<div class="bottom-form">
-									<a href="#" class="btn btn-default pull-right">Continue</a>
-								</div>
-							</div>
+							
 							
 							<form action="#" method="post" enctype="multipart/form-data">
 								<div class="col-sm-6 customer-login">
@@ -62,6 +54,24 @@
 									</div>
 								</div>
 							</form>
+                           <div class="col-sm-6 new-customer">
+							<div class="well">
+									<h2>Sign in with your social account</h2>
+									<p>We promise that we won't post anything on you behalf.</p>
+									<div class="text-center btnRow">
+									   <a href="javascript:void(0);" class="sclbtn facebook">FACEBOOK</a>	
+									    <a href="javascript:void(0);" class="sclbtn google">GOOGLE</a>
+									</div>
+ 
+									<div class="signupBtn text-center">
+										<span>OR</span><br>
+										<a href="register.php">Sign Up</a>
+									</div>
+								</div>
+								<div class="bottom-form">
+									<!-- <a href="#" class="btn btn-default pull-right">Continue</a> -->
+								</div>
+							</div>
 						</div>
 					</div>
 					

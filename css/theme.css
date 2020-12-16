@@ -1538,6 +1538,26 @@ blockquote {
   margin: 0;
   line-height: 23px;
   border-radius: 0; }
+  .page-login .well .btnRow{
+    display:flex; justify-content:center;flex-wrap:wrap;
+    margin:25px 0;
+  }
+  .page-login .well .btnRow .sclbtn{
+    font-size:16px;padding:12px 20px;min-width:150px;text-align:center;
+    color:#fff;font-weight:600;border-radius:6px;
+  }
+  .page-login .well .btnRow .sclbtn.facebook{
+    background-color:#003366;margin-right:15px; 
+  }
+  .page-login .well .btnRow .sclbtn.google{
+    background-color:#ff3300;
+  }
+  .page-login .well .signupBtn span{
+    margin-bottom:15px;display:inline-block; 
+  }
+  .page-login .well .signupBtn span,.page-login .well .signupBtn a{
+      font-size:18px;  
+  }
   .page-login .well h2 {
     padding-bottom: 10px;
     font-size: 14px;
