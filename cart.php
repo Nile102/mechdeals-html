@@ -29,7 +29,8 @@
                 <thead>
                   <tr>
                     <td class="text-center">Image</td>
-                    <td class="text-left">Product Name</td>
+                    <td class="text-left">Product Details</td>
+                    <td class="text-center">Part Number Brand</td>
                     <td class="text-left">Model</td>
                     <td class="text-left">Quantity</td>
                     <td class="text-right">Unit Price</td>
@@ -41,6 +42,7 @@
                     <td class="text-center"><a href="product.php"><img width="70px" src="image/catalog/demo/product/replacement/8.jpg" alt="Aspire Ultrabook Laptop" title="Aspire Ultrabook Laptop" class="img-thumbnail" /></a></td>
                     <td class="text-left"><a href="product.php">Emasa rumas gacem</a><br />
                      </td>
+                     <td class="text-center">-</td>
                     <td class="text-left">Pt 001</td>
                     <td class="text-left" width="200px"><div class="input-group btn-block quantity">
                         <input type="text" name="quantity" value="1" size="1" class="form-control" />
@@ -54,6 +56,7 @@
                   <tr>
                     <td class="text-center"><a href="product.php"><img width="70px" src="image/catalog/demo/product/replacement/10.jpg" alt="Xitefun Causal Wear Fancy Shoes" title="Xitefun Causal Wear Fancy Shoes" class="img-thumbnail" /></a></td>
                     <td class="text-left"><a href="product.php">Comas samer rumas</a></td>
+                     <td class="text-center">-</td>
                     <td class="text-left">Pt 002</td>
                     <td class="text-left" width="200px"><div class="input-group btn-block quantity">
                         <input type="text" name="quantity" value="1" size="1" class="form-control" />
@@ -89,77 +92,9 @@
 					</div>
 				</div>
 			</div>
-			<div class="panel panel-default">
-				<div class="panel-heading">
-					<h4 class="panel-title">
-						<a href="#collapse-shipping" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" aria-expanded="false">Estimate Shipping &amp; Taxes 
-							
-							<i class="fa fa-caret-down"></i>
-						</a>
-					</h4>
-				</div>
-				<div id="collapse-shipping" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
-					<div class="panel-body">
-						<p>Enter your destination to get a shipping estimate.</p>
-						<div class="form-horizontal">
-							<div class="form-group required">
-								<label class="col-sm-2 control-label" for="input-country">Country</label>
-								<div class="col-sm-10">
-									<select name="country_id" id="input-country" class="form-control">
-										<option value=""> --- Please Select --- </option>
-										<option value="244">Aaland Islands</option>
-										<option value="1">Afghanistan</option>
-										<option value="2">Albania</option>
-										<option value="3">Algeria</option>
-									</select>
-								</div>
-							</div>
-							<div class="form-group required">
-								<label class="col-sm-2 control-label" for="input-zone">Region / State</label>
-								<div class="col-sm-10">
-									<select name="zone_id" id="input-zone" class="form-control">
-										<option value=""> --- Please Select --- </option>
-										<option value="3513">Aberdeen</option>
-										<option value="3514">Aberdeenshire</option>
-										<option value="3515">Anglesey</option>
-										<option value="3516">Angus</option>
-										<option value="3517">Argyll and Bute</option>
-										<option value="3518">Bedfordshire</option>
-										<option value="3519">Berkshire</option>
-									</select>
-								</div>
-							</div>
-							<div class="form-group required">
-								<label class="col-sm-2 control-label" for="input-postcode">Post Code</label>
-								<div class="col-sm-10"><input type="text" name="postcode" value="" placeholder="Post Code" id="input-postcode" class="form-control"></div>
-							</div>
-								<button type="button" id="button-quote" data-loading-text="Loading..." class="btn btn-primary">Get Quotes</button>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="panel panel-default">
-				<div class="panel-heading">
-					<h4 class="panel-title">
-						<a href="#collapse-voucher" data-toggle="collapse" data-parent="#accordion" class="accordion-toggle collapsed" aria-expanded="false">Use Gift Certificate 
-							
-							<i class="fa fa-caret-down"></i>
-						</a>
-					</h4>
-				</div>
-				<div id="collapse-voucher" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
-					<div class="panel-body">
-						<label class="col-sm-2 control-label" for="input-voucher">Enter your gift certificate code here</label>
-						<div class="input-group">
-							<input type="text" name="voucher" value="" placeholder="Enter your gift certificate code here" id="input-voucher" class="form-control">
-							<span class="input-group-btn"><input type="submit" value="Apply Gift Certificate" id="button-voucher" data-loading-text="Loading..." class="btn btn-primary"></span>
-						</div>
-					</div>
-				</div>
-			</div>
 		</div>
 		
-		<div class="row">
+		<!-- <div class="row">
 			<div class="col-sm-4 col-sm-offset-8">
 				<table class="table table-bordered">
 					<tbody>
@@ -196,7 +131,7 @@
 					</tbody>
 				</table>
 			</div>
-		</div>
+		</div> -->
 
 		 <div class="buttons">
             <div class="pull-left"><a href="index.php" class="btn btn-primary">Continue Shopping</a></div>
@@ -210,7 +145,7 @@
 	<!-- //Main Container -->
 	
 
-	 <?php include 'include/links.php' ?>
+	 <?php include 'include/footer.php' ?>
     </div>
 		
 </body>
