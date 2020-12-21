@@ -91,7 +91,7 @@
                                             </select>
                                         </div>
 
-                                        <input class="autosearch-input form-control" type="text" value="" size="50" autocomplete="off" placeholder="Keyword here..." name="search">
+                                        <input class="autosearch-input form-control" type="text" value="" size="50" autocomplete="off" placeholder="Search by Part Number/Name" name="search">
                                 
                                         <button type="submit" class="button-search btn btn-primary" name="submit_search"><i class="fa fa-search"></i></button>
                                     

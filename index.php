@@ -238,6 +238,32 @@
                 </div>
             </div>
             <!-- end So Categories -->
+            
+            <!-- new brand section -->
+            <div class="container">
+                <div class="newBrand">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="box" style="background-image:url('./image/home/latest-access.jpg')">
+                               <div class="cnt">
+                                   <h3>New Arrivals</h3>
+                               <h2>Latest Exterior Accessories</h2>
+                               <a href="javascript:void(0);">Shop Now</a>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="box" style="background-image:url('./image/home/latest-interior.jpg')">
+                               <div class="cnt">
+                                   <h3>New Arrivals</h3>
+                               <h2>Latest Interior Accessories</h2>
+                               <a href="javascript:void(0);">Shop Now</a>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <div class="container">
                 <div class="slider-brands module">
@@ -254,6 +280,16 @@
                         <div class="item"><a href="#"><img src="image/catalog/brands/b3.jpg" alt="brand"></a></div>
                     </div>
                     
+                </div>
+            </div>
+
+            <!-- request section -->
+            <div class="container">
+                <div class="requestSec">
+                    <div class="cnt text-center">
+                        <h3>Couldn't find what you were looking for?</h3>
+                        <a href="javascript:void(0);">Request Any Part</a>
+                    </div>
                 </div>
             </div>
             
