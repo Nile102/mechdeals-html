@@ -78,22 +78,7 @@
                         </div>
                     </div> 
                 </div>
-                <div class="col-lg-9 col-md-8 col-sm-12 col-xs-12 col_htca  col-style">
-                    <div class="quick-links">
-                      <ul class="">
-                        <li><h2>Go Quickly to:</h2></li>
-                        <li><a href="#">Smart devices,</a></li>
-                        <li><a href="#">Tool &amp; Equipments,</a></li>
-                        <li><a href="#">Wheels &amp; Tires,</a></li>
-                        <li><a href="#">Accessories,</a></li>
-                        <li><a href="#">Oil Fluids,</a></li>
-                        <li><a href="#">Smartphone,</a></li>
-                        <li><a href="#">Cellphone,</a></li>
-                        <li><a href="#">Cameras,</a></li>
-                        <li><a href="#">Latops,</a></li>
-                        <li><a href="#">Tablets</a></li>
-                      </ul>
-                    </div>
+                <div class="col-lg-9 col-md-8 col-sm-12 col-xs-12 col_htca box-advanced-search  col-style">
                     <div class="slider-container"> 
                         <div class="module sohomepage-slider ">
                             <div class="yt-content-slider"  data-rtl="yes" data-autoplay="no" data-autoheight="no" data-delay="4" data-speed="0.6" data-margin="0" data-items_column00="1" data-items_column0="1" data-items_column1="1" data-items_column2="1"  data-items_column3="1" data-items_column4="1" data-arrows="yes" data-pagination="no" data-lazyload="yes" data-loop="no" data-hoverpause="yes">

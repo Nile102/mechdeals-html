@@ -256,6 +256,7 @@
   /*=====SEARCH ======*/
   /*BLOCK CART*/
   /*MENU MEGA*/ }
+  .typeheader-1 .header-middle{box-shadow:0 0 15px rgba(0,0,0, 0.1);}
   .typeheader-1.navbar-compact .header-middle {
     padding: 15px 0; }
   .typeheader-1 .header-top {
@@ -266,6 +267,9 @@
     margin-bottom: 0; }
   .typeheader-1 .header-top .dropdown-menu li {
     line-height: 22px; }
+    .typeheader-1 ul.top-link li{
+      color:rgba(255,255,255,0.8);
+    }
   .typeheader-1 ul.top-link {
     list-style: none;
     margin: 0;
@@ -274,6 +278,12 @@
   .typeheader-1 ul.top-link .dropdown-menu {
     left: 0;
     right: auto; }
+    .typeheader-1 ul.top-log li a{
+      color:rgba(255,255,255,0.8);
+    }
+    .typeheader-1 ul.top-log li a:hover{
+      color:#ff2d37;
+    }
   .typeheader-1 ul.top-link > li {
     line-height: 43px;
     position: relative;
