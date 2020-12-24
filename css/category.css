@@ -1,5 +1,6 @@
 .categoryPage .sliderBox{
-  position:relative;margin-bottom:30px;padding:0 30px;
+  position:relative;padding:15px 30px;border-radius:5px;
+  background:#fff;box-shadow:0 0 15px rgba(0,0,0,0.06);
 }
 .categoryPage .sliderBox .item a img{
   height:70px;  
@@ -21,14 +22,125 @@
  .categoryPage .sliderBox .owl2-nav .owl2-next span, .categoryPage .sliderBox .owl2-nav .owl2-prev span{
     display:none;
 }
-.categoryPage .sliderBox .owl2-nav .owl2-prev{left:-30px;}
+.categoryPage .sliderBox .owl2-nav .owl2-prev{left:-15px;}
 .categoryPage .sliderBox .owl2-nav .owl2-prev:after{
    font-family: 'FontAwesome';
    content: "\f104";font-size:30px;
 }
 
-.categoryPage .sliderBox .owl2-nav .owl2-next{right: -30px;}
+.categoryPage .sliderBox .owl2-nav .owl2-next{right: -15px;}
 .categoryPage .sliderBox .owl2-nav .owl2-next:after{
    font-family: 'FontAwesome';
    content: "\f105";font-size:30px;
+}
+.categoryList{
+  padding:50px 0 30px; 
+}
+.categoryList .cateRow{
+  display:flex;flex-wrap:wrap;margin-bottom:20px;
+}
+.categoryList .maincate{
+  flex:0 0 297px;max-width:297px;
+  background:#fff;border:1px solid #e5e5e5;
+}
+.categoryList .maincate .name{
+color: #fff;
+font-size: 18px;
+font-weight: 700;
+background-color: #ff2d37;
+padding: 10px;
+}
+.categoryList .maincate .name span{
+  font-size: 11px;line-height:18px; 
+  display: block;
+  font-weight: 400;
+}
+.categoryList .maincate .img{
+  padding:50px 0;
+}
+.categoryList .maincate .img img{
+   max-width: 150px;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+.categoryList .subcate{
+  flex:0 0 calc(100% - 297px);max-width:calc(100% - 297px);
+  border:1px solid #e5e5e5;border-left:0;background:#f4f4f4;
+  padding:10px;
+}
+.categoryList .subcate .top5{
+  display:flex;margin:0 -5px;flex-wrap:wrap;
+}
+.categoryList .subcate .top5 li{
+  flex:0 0 20%;max-width:20%; 
+}
+.categoryList .subcate .top5 li a{
+margin-bottom: 10px;width: 100%;display: inline-block; 
+}
+.categoryList .subcate .top5 li .img{
+  border: 1px solid #e5e5e5;background: #fff;padding: 15px;position: relative;display: block;
+  overflow:hidden;
+}
+.categoryList .subcate .top5 li .img img{
+  display: block;max-width: 100px;
+  width: 100%;margin: 0 auto;transition:all 0.3s;
+}
+.categoryList .subcate .top5 li a:hover .img img{
+  transform:scale(1.2);
+}
+.categoryList .subcate .top5 li a:hover .name{
+  color:#ff2d37;
+}
+.categoryList .subcate .top5 li .img .catelog{
+  background: #ffd61e;font-size: 11px;font-weight: 700;position: absolute;
+  top: 5px;left: -5px;padding: 3px 10px;line-height: 18px;color:#000;z-index:1;
+}
+.categoryList .subcate .top5 li .name{
+padding-top: 5px;text-align: center;font-size: 13px;
+font-weight: 700;display: block;color:#000;line-height:18px;
+transition:all 0.3s;
+}
+
+.categoryList .subcate .bottom3{
+display:flex;align-items:center;margin:0 -5px;
+}
+.categoryList .subcate .bottom3 li{
+padding:0 5px;flex:0 0 33.3%;max-width:33.3%;
+}
+.categoryList .subcate .bottom3 li a{
+    margin-bottom: 10px;border: 1px solid #e5e5e5;
+    background: #fff;display:flex;align-items:center;
+    position: relative;padding-right: 18px;
+}
+.categoryList .subcate .bottom3 li a:hover{
+  box-shadow:0 2px 4px 0 rgba(0,0,0,.1)
+}
+.categoryList .subcate .bottom3 li a:hover .name{
+  color:#ff2d37;
+}
+.categoryList .subcate .bottom3 li a:before{
+  content: '';position: absolute;right: 10px;top: 50%;margin-top: -5px;
+  display: block;border: 1px solid #000;border-width: 0 1px 1px 0;
+  padding: 3px;-webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.categoryList .subcate .bottom3 li a .img{
+    padding: 5px;position: relative;display:inline-block;
+}
+.categoryList .subcate .bottom3 li a .img img{
+    max-width: 35px;
+    display: block;
+}
+.categoryList .subcate .bottom3 li a .name{
+    font-size: 13px;padding-left: 5px;font-weight: 700;
+    color:#000;transition:all 0.3s;
 }
