@@ -13,7 +13,7 @@
     
     <!-- Favicon
     ============================================ -->
-    <link rel="shortcut icon" type="image/png" href="ico/favicon-16x16.png"/>
+    <link rel="shortcut icon" type="image/png" href="ico/favicon.svg"/>
   
    
     <!-- Libs CSS
