@@ -2614,7 +2614,7 @@ body #so_sociallogin .block-popup-login .tt_popup_login {
 ul.breadcrumb {
   background-color: transparent;
   padding: 15px 0 !important;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   display: inline-block;
   width: 100%;
   line-height: 100%; }
@@ -8071,6 +8071,10 @@ footer a:hover {
 
 .slider-brands {
   padding-top: 78px;padding-bottom:50px; }
+  @media(max-width:991px){
+    .slider-brands {
+  padding-top: 40px;padding-bottom:20px; }
+  }
   .slider-brands .contentslider {
     border: 1px solid #e5e5e5;
     border-right: none;
@@ -8528,6 +8532,18 @@ footer a:hover {
       display:inline-block;font-size:15px;padding:8px 15px;border-radius:3px;
       background:#ff2d37;color:#fff; 
     }
+    @media(max-width:991px){
+      .newBrand .box{
+        height:230px;
+        padding:50px 30px;margin-top:30px; 
+      }
+      .newBrand .box h3{
+      font-size:18px;
+    }
+    .newBrand .box h2{
+       font-size:21px; 
+    }
+    }
 /************************************************************************************************
  MODULE LATEST BLOG
  *************************************************************************************************/
@@ -8690,8 +8706,8 @@ footer a:hover {
 
 /*home page request section*/
 .requestSec{
- margin:30px 0 70px;background:url('../image/home/orange-image.jpg');height:350px;
- position:relative;display:flex;justify-content:center;align-items:center;
+ margin:30px 0 70px;background:url('../image/home/orange-image.jpg');height:350px;padding:0 15px;
+ position:relative;display:flex;justify-content:center;align-items:center;background-position: center;
 }
 .requestSec:after{
 content:"";background:rgba(0,0,0,0.2);height:100%;width:100%;position:absolute;top:0;left:0;
@@ -8707,4 +8723,17 @@ z-index:2;position: relative;
   padding: 15px 30px;display:inline-block;
   font-size: 18px;
   border-radius: 4px
+}
+
+@media(max-width:991px){
+  .requestSec{
+ margin:20px 0 35px;height:250px;
+}
+.requestSec .cnt h3{
+ font-size:22px;margin-bottom:15px; 
+}
+.requestSec .cnt a{
+  padding: 10px 20px;
+  font-size: 16px;
+}
 }

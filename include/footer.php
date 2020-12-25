@@ -51,7 +51,7 @@
         <div class="container">
             <div class="row footer-middle">
                 <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 col-style">
-                   <h3>LOGO</h3>
+                   <img class="footerLogo" src="image/catalog/logo.svg" title="Your Store" alt="Your Store">
                 </div>
                 <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 col-style">
                     <div class="row">

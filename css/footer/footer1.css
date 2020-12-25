@@ -838,6 +838,9 @@
     color: #484848;
     display: block;
     border-radius: 3px; }
+    .typefooter-1 .footerLogo{
+      height:60px;
+    }
   .typefooter-1 .socials li a:hover {
     color: #fff; }
   .typefooter-1 .box-infos .list-icon li {
@@ -860,3 +863,22 @@
     padding-top: 5px; }
   .typefooter-1 .footer-bottom .payment-w {
     text-align: right; }
+
+.typefooter-1 .footer-bottom{
+  margin: 0 !important;
+}
+
+@media(max-width:1024px){
+  .typefooter-1 .footer-middle{
+    padding:40px 0 0 !important;
+  }
+}
+
+@media(max-width:991px){
+  .typefooter-1 .footer-middle{
+    padding:20px 0 0 !important;
+  }
+  .typefooter-1 .footerLogo{
+      height:50px;margin-bottom:20px;
+    }
+}
