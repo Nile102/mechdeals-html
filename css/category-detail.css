@@ -1,0 +1,113 @@
+.categorydtlPage .filterTitle{
+  background:#f7f7f7;padding:25px;display:flex;align-items:center;justify-content:space-between; 
+}
+.categorydtlPage .filterTitle h1{
+ font-size:18px;margin:0;color:#000;
+}
+.categorydtlPage .filterTitle .filterTitle__right a{
+  padding: 8px 15px;background: #ff2d37;
+  color: #fff;border-radius: 3px;
+}
+
+.categorydtlPage .mainRow{ 
+  display: flex;flex-wrap:wrap;margin:0 -10px;padding:20px 0 50px 0;
+  color:#000
+ }
+
+ .categorydtlPage .mainRow .mainRow__left{
+  max-width:300px;flex:0 0 300px;padding:0 10px;
+ } 
+
+  .categorydtlPage .mainRow .mainRow__left .title{
+    background: #eff3f6;border-left: 4px solid #ff2d37;padding: 10px;font-size: 16px;text-transform: uppercase;
+    font-weight: 700;margin: 0;position: relative;
+  }
+  .categorydtlPage .mainRow .mainRow__left .panel-group{
+    border-right:1px solid #eceaea;border-left:1px solid #eceaea;
+  }
+  .categorydtlPage .mainRow .mainRow__left .panel-group .panel{
+    border:0;margin-top:0 !important;
+  }
+  .categorydtlPage .mainRow .mainRow__left .panel-group .panel .panel-heading{
+    padding:0;background:#fff;border:0;border-radius:0;
+  }
+  .categorydtlPage .mainRow .mainRow__left .panel-group .panel .panel-heading .panel-title a{
+    padding:5px 25px 5px 0;display:block;position:relative;font-size:13px;display:flex;align-items:center;
+    border-bottom:1px solid #eceaea;
+  }
+  .categorydtlPage .mainRow .mainRow__left .panel-group .panel .panel-heading .panel-title a:after{
+    position: absolute;right: 10px;content: "";display: block;transform: rotate(90deg);
+    width: 0;height: 0;border-style: solid;border-width: 5px 0 5px 5px;
+    border-color: transparent transparent transparent #000;transition:all 0.3s;
+  }
+   .categorydtlPage .mainRow .mainRow__left .panel-group .panel .panel-heading .panel-title a.collapsed:after{
+    transform:inherit;
+  }
+  .categorydtlPage .mainRow .mainRow__left .panel-group .panel .panel-heading .panel-title a img{
+    width: 30px;display: block;margin: 0 10px;
+    border: 1px solid #eceaea;padding: 5px;background: #fff;
+  }
+  .categorydtlPage .mainRow .mainRow__left .panel-group .panel .panel-body{
+   border:0 !important;padding:0 0 0 10px;background:#f7f7f7;
+   border-bottom: 4px solid #ff2d37 !important; 
+  }
+  .categorydtlPage .mainRow .mainRow__left .panel-group .panel .panel-body ul li a{
+    display:flex;align-items:center;font-size:13px;color:#000;
+    background:#fff;border: 1px solid #eceaea;border-top:0;border-right:0;
+  }
+  .categorydtlPage .mainRow .mainRow__left .panel-group .panel .panel-body ul li a:hover{
+    color:#ff2d37;
+  }
+  .categorydtlPage .mainRow .mainRow__left .panel-group .panel .panel-body ul li a img{
+    width: 25px;min-width: 25px;padding: 3px;
+    overflow: hidden;border-radius: 3px;
+    display: block;margin: 0 10px;border: 1px solid #eceaea;
+    background: #fff
+  }
+  .categorydtlPage .mainRow .mainRow__left .panel-group .panel .panel-body ul li a span{
+    height: 100%;display: block;padding: 8px 0;width: 100%;cursor: pointer;
+  }
+
+ .categorydtlPage .mainRow .mainRow__right{
+  max-width:calc(100% - 300px);flex:0 0 calc(100% - 300px);
+  padding:0 10px;
+ } 
+
+ .categorydtlPage .sliderBox{
+  position:relative;padding:15px 30px;border-radius:5px;
+  background:#fff;box-shadow:0 0 15px rgba(0,0,0,0.06);
+}
+.categorydtlPage .sliderBox.mt20{
+  margin-top:20px;
+}
+.categorydtlPage .sliderBox .item a img{
+  height:70px;  
+}
+.categorydtlPage .sliderBox .item{text-align:center;}
+.categorydtlPage .sliderBox .item a span{
+  display:block;
+}
+.categorydtlPage .sliderBox .owl2-nav .owl2-prev, .categorydtlPage .sliderBox .owl2-nav .owl2-next{
+  position: absolute;
+  font-size:0;top: 50%;transform:translateY(-50%);
+  color: #000;
+}
+
+.categorydtlPage .sliderBox .owl2-nav .owl2-prev:hover, .categorydtlPage .sliderBox .owl2-nav .owl2-next:hover{
+  color: #ff2d37;
+}
+.categorydtlPage .sliderBox .owl2-nav .owl2-prev.disabled, .categorydtlPage .sliderBox .owl2-nav .owl2-next.disabled,
+ .categorydtlPage .sliderBox .owl2-nav .owl2-next span, .categorydtlPage .sliderBox .owl2-nav .owl2-prev span{
+    display:none;
+}
+.categorydtlPage .sliderBox .owl2-nav .owl2-prev{left:-15px;}
+.categorydtlPage .sliderBox .owl2-nav .owl2-prev:after{
+   font-family: 'FontAwesome';
+   content: "\f104";font-size:30px;
+}
+
+.categorydtlPage .sliderBox .owl2-nav .owl2-next{right: -15px;}
+.categorydtlPage .sliderBox .owl2-nav .owl2-next:after{
+   font-family: 'FontAwesome';
+   content: "\f105";font-size:30px;
+}
