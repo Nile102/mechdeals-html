@@ -19,14 +19,14 @@
                 <li><a href="#">Category</a></li>
             </ul>
             <div class="filterTitle">
-              <div class="filterTitle__left">
-                <h1>FIND PARTS FOR RENAULT 5 (122_) 800 710 0.8 (1221, 1391), 37 HP</h1>
-              </div>
-              <div class="filterTitle__right">
-                <a href="javascript:void(0);">
-                  Change Vehicle
-                </a>
-              </div>
+                <div class="filterTitle__left">
+                    <h1>FIND PARTS FOR RENAULT 5 (122_) 800 710 0.8 (1221, 1391), 37 HP</h1>
+                </div>
+                <div class="filterTitle__right">
+                    <a href="javascript:void(0);">
+                        Change Vehicle
+                    </a>
+                </div>
             </div>
             <div class="mainRow">
                 <div class="mainRow__left">
@@ -45,50 +45,50 @@
                             </div>
                             <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                                 <div class="panel-body">
-                                  <ul class="list-unstyled">
-                                    <li>
-                                      <a href="javascript:void(0);">
-                                        <img src="image/category-detail/air-conditioning-main-1.png" class="img-responsive">
-                                        <span>AC Evaporator</span>
-                                      </a>
-                                    </li>
-                                    <!-- xxxx -->
-                                    <li>
-                                      <a href="javascript:void(0);">
-                                        <img src="image/category-detail/air-conditioning-main-2.png" class="img-responsive">
-                                        <span>AC Evaporator</span>
-                                      </a>
-                                    </li>
-                                    <!-- xxxxx -->
-                                    <li>
-                                      <a href="javascript:void(0);">
-                                        <img src="image/category-detail/air-conditioning-main-3.png" class="img-responsive">
-                                        <span>AC Evaporator</span>
-                                      </a>
-                                    </li>
-                                    <!-- xxxx -->
-                                    <li>
-                                      <a href="javascript:void(0);">
-                                        <img src="image/category-detail/air-conditioning-main-4.png" class="img-responsive">
-                                        <span>AC Evaporator</span>
-                                      </a>
-                                    </li>
-                                    <!-- xxxxx -->
-                                    <li>
-                                      <a href="javascript:void(0);">
-                                        <img src="image/category-detail/air-conditioning-main-5.png" class="img-responsive">
-                                        <span>AC Evaporator</span>
-                                      </a>
-                                    </li>
-                                    <!-- xxxx -->
-                                    <li>
-                                      <a href="javascript:void(0);">
-                                        <img src="image/category-detail/air-conditioning-main-6.png" class="img-responsive">
-                                        <span>AC Evaporator</span>
-                                      </a>
-                                    </li>
-                                    <!-- xxxxx -->
-                                  </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <img src="image/category-detail/air-conditioning-main-1.png" class="img-responsive">
+                                                <span>AC Evaporator</span>
+                                            </a>
+                                        </li>
+                                        <!-- xxxx -->
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <img src="image/category-detail/air-conditioning-main-2.png" class="img-responsive">
+                                                <span>AC Evaporator</span>
+                                            </a>
+                                        </li>
+                                        <!-- xxxxx -->
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <img src="image/category-detail/air-conditioning-main-3.png" class="img-responsive">
+                                                <span>AC Evaporator</span>
+                                            </a>
+                                        </li>
+                                        <!-- xxxx -->
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <img src="image/category-detail/air-conditioning-main-4.png" class="img-responsive">
+                                                <span>AC Evaporator</span>
+                                            </a>
+                                        </li>
+                                        <!-- xxxxx -->
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <img src="image/category-detail/air-conditioning-main-5.png" class="img-responsive">
+                                                <span>AC Evaporator</span>
+                                            </a>
+                                        </li>
+                                        <!-- xxxx -->
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <img src="image/category-detail/air-conditioning-main-6.png" class="img-responsive">
+                                                <span>AC Evaporator</span>
+                                            </a>
+                                        </li>
+                                        <!-- xxxxx -->
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -103,50 +103,50 @@
                             </div>
                             <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                                 <div class="panel-body">
-                                   <ul class="list-unstyled">
-                                    <li>
-                                      <a href="javascript:void(0);">
-                                        <img src="image/category-detail/air-conditioning-main-1.png" class="img-responsive">
-                                        <span>AC Evaporator</span>
-                                      </a>
-                                    </li>
-                                    <!-- xxxx -->
-                                    <li>
-                                      <a href="javascript:void(0);">
-                                        <img src="image/category-detail/air-conditioning-main-2.png" class="img-responsive">
-                                        <span>AC Evaporator</span>
-                                      </a>
-                                    </li>
-                                    <!-- xxxxx -->
-                                    <li>
-                                      <a href="javascript:void(0);">
-                                        <img src="image/category-detail/air-conditioning-main-3.png" class="img-responsive">
-                                        <span>AC Evaporator</span>
-                                      </a>
-                                    </li>
-                                    <!-- xxxx -->
-                                    <li>
-                                      <a href="javascript:void(0);">
-                                        <img src="image/category-detail/air-conditioning-main-4.png" class="img-responsive">
-                                        <span>AC Evaporator</span>
-                                      </a>
-                                    </li>
-                                    <!-- xxxxx -->
-                                    <li>
-                                      <a href="javascript:void(0);">
-                                        <img src="image/category-detail/air-conditioning-main-5.png" class="img-responsive">
-                                        <span>AC Evaporator</span>
-                                      </a>
-                                    </li>
-                                    <!-- xxxx -->
-                                    <li>
-                                      <a href="javascript:void(0);">
-                                        <img src="image/category-detail/air-conditioning-main-6.png" class="img-responsive">
-                                        <span>AC Evaporator</span>
-                                      </a>
-                                    </li>
-                                    <!-- xxxxx -->
-                                  </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <img src="image/category-detail/air-conditioning-main-1.png" class="img-responsive">
+                                                <span>AC Evaporator</span>
+                                            </a>
+                                        </li>
+                                        <!-- xxxx -->
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <img src="image/category-detail/air-conditioning-main-2.png" class="img-responsive">
+                                                <span>AC Evaporator</span>
+                                            </a>
+                                        </li>
+                                        <!-- xxxxx -->
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <img src="image/category-detail/air-conditioning-main-3.png" class="img-responsive">
+                                                <span>AC Evaporator</span>
+                                            </a>
+                                        </li>
+                                        <!-- xxxx -->
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <img src="image/category-detail/air-conditioning-main-4.png" class="img-responsive">
+                                                <span>AC Evaporator</span>
+                                            </a>
+                                        </li>
+                                        <!-- xxxxx -->
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <img src="image/category-detail/air-conditioning-main-5.png" class="img-responsive">
+                                                <span>AC Evaporator</span>
+                                            </a>
+                                        </li>
+                                        <!-- xxxx -->
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <img src="image/category-detail/air-conditioning-main-6.png" class="img-responsive">
+                                                <span>AC Evaporator</span>
+                                            </a>
+                                        </li>
+                                        <!-- xxxxx -->
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -161,50 +161,50 @@
                             </div>
                             <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                                 <div class="panel-body">
-                                   <ul class="list-unstyled">
-                                    <li>
-                                      <a href="javascript:void(0);">
-                                        <img src="image/category-detail/air-conditioning-main-1.png" class="img-responsive">
-                                        <span>AC Evaporator</span>
-                                      </a>
-                                    </li>
-                                    <!-- xxxx -->
-                                    <li>
-                                      <a href="javascript:void(0);">
-                                        <img src="image/category-detail/air-conditioning-main-2.png" class="img-responsive">
-                                        <span>AC Evaporator</span>
-                                      </a>
-                                    </li>
-                                    <!-- xxxxx -->
-                                    <li>
-                                      <a href="javascript:void(0);">
-                                        <img src="image/category-detail/air-conditioning-main-3.png" class="img-responsive">
-                                        <span>AC Evaporator</span>
-                                      </a>
-                                    </li>
-                                    <!-- xxxx -->
-                                    <li>
-                                      <a href="javascript:void(0);">
-                                        <img src="image/category-detail/air-conditioning-main-4.png" class="img-responsive">
-                                        <span>AC Evaporator</span>
-                                      </a>
-                                    </li>
-                                    <!-- xxxxx -->
-                                    <li>
-                                      <a href="javascript:void(0);">
-                                        <img src="image/category-detail/air-conditioning-main-5.png" class="img-responsive">
-                                        <span>AC Evaporator</span>
-                                      </a>
-                                    </li>
-                                    <!-- xxxx -->
-                                    <li>
-                                      <a href="javascript:void(0);">
-                                        <img src="image/category-detail/air-conditioning-main-6.png" class="img-responsive">
-                                        <span>AC Evaporator</span>
-                                      </a>
-                                    </li>
-                                    <!-- xxxxx -->
-                                  </ul>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <img src="image/category-detail/air-conditioning-main-1.png" class="img-responsive">
+                                                <span>AC Evaporator</span>
+                                            </a>
+                                        </li>
+                                        <!-- xxxx -->
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <img src="image/category-detail/air-conditioning-main-2.png" class="img-responsive">
+                                                <span>AC Evaporator</span>
+                                            </a>
+                                        </li>
+                                        <!-- xxxxx -->
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <img src="image/category-detail/air-conditioning-main-3.png" class="img-responsive">
+                                                <span>AC Evaporator</span>
+                                            </a>
+                                        </li>
+                                        <!-- xxxx -->
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <img src="image/category-detail/air-conditioning-main-4.png" class="img-responsive">
+                                                <span>AC Evaporator</span>
+                                            </a>
+                                        </li>
+                                        <!-- xxxxx -->
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <img src="image/category-detail/air-conditioning-main-5.png" class="img-responsive">
+                                                <span>AC Evaporator</span>
+                                            </a>
+                                        </li>
+                                        <!-- xxxx -->
+                                        <li>
+                                            <a href="javascript:void(0);">
+                                                <img src="image/category-detail/air-conditioning-main-6.png" class="img-responsive">
+                                                <span>AC Evaporator</span>
+                                            </a>
+                                        </li>
+                                        <!-- xxxxx -->
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -328,11 +328,10 @@
                                 </a>
                             </div>
                         </div>
-                        </div>
-                         
-                         <!-- brand slider -->
-                         <div class="sliderBox mt20">
-                         <div class="brandSlider owl-carousel">
+                    </div>
+                    <!-- brand slider -->
+                    <div class="sliderBox mt20">
+                        <div class="brandSlider owl-carousel">
                             <div class="item">
                                 <a href="javascript:void(0);">
                                     <img src="image/category/category1.png">
@@ -405,6 +404,9 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- category list -->
+                    
                 </div>
             </div>
         </div>
@@ -440,8 +442,8 @@
                 },
             },
         });
-       
-       // brand slider
+
+        // brand slider
         $('.brandSlider').owlCarousel2({
             margin: 25,
             loop: false,
