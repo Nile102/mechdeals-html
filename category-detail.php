@@ -9,7 +9,7 @@
     <link href="css/category-detail.css" rel="stylesheet">
 </head>
 
-<body class="res layout-1 listing-page">
+<body class="res layout-1 listing-page"> 
     <div id="wrapper" class="wrapper-fluid banners-effect-5">
         <?php include 'include/header.php' ?>
         <!-- Main Container  -->
@@ -333,79 +333,182 @@
                     <div class="sliderBox mt20">
                         <div class="brandSlider owl-carousel">
                             <div class="item">
-                                <a href="javascript:void(0);">
+                                <label>
+                                    <input type="checkbox">
                                     <img src="image/category/category1.png">
-                                </a>
+                                    <span></span>
+                                </label>
                             </div>
                             <div class="item">
-                                <a href="javascript:void(0);">
+                               <label>
+                                    <input type="checkbox">
                                     <img src="image/category/category2.png">
-                                </a>
+                                    <span></span>
+                                </label>
                             </div>
                             <div class="item">
-                                <a href="javascript:void(0);">
+                               <label>
+                                    <input type="checkbox">
                                     <img src="image/category/category3.png">
-                                </a>
+                                    <span></span>
+                                </label>
                             </div>
-                            <div class="item">
-                                <a href="javascript:void(0);">
+                           <div class="item">
+                                <label>
+                                    <input type="checkbox">
                                     <img src="image/category/category1.png">
-                                </a>
+                                    <span></span>
+                                </label>
                             </div>
                             <div class="item">
-                                <a href="javascript:void(0);">
+                               <label>
+                                    <input type="checkbox">
                                     <img src="image/category/category2.png">
-                                </a>
+                                    <span></span>
+                                </label>
                             </div>
                             <div class="item">
-                                <a href="javascript:void(0);">
+                               <label>
+                                    <input type="checkbox">
                                     <img src="image/category/category3.png">
-                                </a>
+                                    <span></span>
+                                </label>
                             </div>
                             <div class="item">
-                                <a href="javascript:void(0);">
+                                <label>
+                                    <input type="checkbox">
                                     <img src="image/category/category1.png">
-                                </a>
+                                    <span></span>
+                                </label>
                             </div>
                             <div class="item">
-                                <a href="javascript:void(0);">
+                               <label>
+                                    <input type="checkbox">
                                     <img src="image/category/category2.png">
-                                </a>
+                                    <span></span>
+                                </label>
                             </div>
                             <div class="item">
-                                <a href="javascript:void(0);">
+                               <label>
+                                    <input type="checkbox">
                                     <img src="image/category/category3.png">
-                                </a>
-                            </div>
-                            <div class="item">
-                                <a href="javascript:void(0);">
-                                    <img src="image/category/category1.png">
-                                </a>
-                            </div>
-                            <div class="item">
-                                <a href="javascript:void(0);">
-                                    <img src="image/category/category2.png">
-                                </a>
-                            </div>
-                            <div class="item">
-                                <a href="javascript:void(0);">
-                                    <img src="image/category/category3.png">
-                                </a>
-                            </div>
-                            <div class="item">
-                                <a href="javascript:void(0);">
-                                    <img src="image/category/category1.png">
-                                </a>
-                            </div>
-                            <div class="item">
-                                <a href="javascript:void(0);">
-                                    <img src="image/category/category2.png">
-                                </a>
+                                    <span></span>
+                                </label>
                             </div>
                         </div>
                     </div>
 
                     <!-- category list -->
+                    <ul class="list-inline categoryList">
+                        <li>
+                            <div class="itemBox">
+                                <img src="image/category-detail/category-list-img.jpg" class="img-responsive">
+                                <div class="cnt">
+                                    <h3>Auto Metal Direct</h3>
+                                    <h4>Hood Scoop</h4>
+                                    <div class="rating">
+                                       <i class="fa fa-star fill" aria-hidden="true"></i> 
+                                       <i class="fa fa-star fill" aria-hidden="true"></i>
+                                       <i class="fa fa-star fill" aria-hidden="true"></i>
+                                       <i class="fa fa-star" aria-hidden="true"></i>
+                                       <i class="fa fa-star" aria-hidden="true"></i>
+                                    </div>
+                                    <h5><i class="fa fa-inr" aria-hidden="true"></i> 2000</h5>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- xxx -->
+                         <li>
+                            <div class="itemBox">
+                                <img src="image/category-detail/category-list-img.jpg" class="img-responsive">
+                                <div class="cnt">
+                                    <h3>Auto Metal Direct</h3>
+                                    <h4>Hood Scoop</h4>
+                                    <div class="rating">
+                                       <i class="fa fa-star fill" aria-hidden="true"></i> 
+                                       <i class="fa fa-star fill" aria-hidden="true"></i>
+                                       <i class="fa fa-star fill" aria-hidden="true"></i>
+                                       <i class="fa fa-star" aria-hidden="true"></i>
+                                       <i class="fa fa-star" aria-hidden="true"></i>
+                                    </div>
+                                    <h5><i class="fa fa-inr" aria-hidden="true"></i> 2000</h5>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- xxx -->
+                         <li>
+                            <div class="itemBox">
+                                <img src="image/category-detail/category-list-img.jpg" class="img-responsive">
+                                <div class="cnt">
+                                    <h3>Auto Metal Direct</h3>
+                                    <h4>Hood Scoop</h4>
+                                    <div class="rating">
+                                       <i class="fa fa-star fill" aria-hidden="true"></i> 
+                                       <i class="fa fa-star fill" aria-hidden="true"></i>
+                                       <i class="fa fa-star fill" aria-hidden="true"></i>
+                                       <i class="fa fa-star" aria-hidden="true"></i>
+                                       <i class="fa fa-star" aria-hidden="true"></i>
+                                    </div>
+                                    <h5><i class="fa fa-inr" aria-hidden="true"></i> 2000</h5>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- xxx -->
+                         <li>
+                            <div class="itemBox">
+                                <img src="image/category-detail/category-list-img.jpg" class="img-responsive">
+                                <div class="cnt">
+                                    <h3>Auto Metal Direct</h3>
+                                    <h4>Hood Scoop</h4>
+                                    <div class="rating">
+                                       <i class="fa fa-star fill" aria-hidden="true"></i> 
+                                       <i class="fa fa-star fill" aria-hidden="true"></i>
+                                       <i class="fa fa-star fill" aria-hidden="true"></i>
+                                       <i class="fa fa-star" aria-hidden="true"></i>
+                                       <i class="fa fa-star" aria-hidden="true"></i>
+                                    </div>
+                                    <h5><i class="fa fa-inr" aria-hidden="true"></i> 2000</h5>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- xxx -->
+                         <li>
+                            <div class="itemBox">
+                                <img src="image/category-detail/category-list-img.jpg" class="img-responsive">
+                                <div class="cnt">
+                                    <h3>Auto Metal Direct</h3>
+                                    <h4>Hood Scoop</h4>
+                                    <div class="rating">
+                                       <i class="fa fa-star fill" aria-hidden="true"></i> 
+                                       <i class="fa fa-star fill" aria-hidden="true"></i>
+                                       <i class="fa fa-star fill" aria-hidden="true"></i>
+                                       <i class="fa fa-star" aria-hidden="true"></i>
+                                       <i class="fa fa-star" aria-hidden="true"></i>
+                                    </div>
+                                    <h5><i class="fa fa-inr" aria-hidden="true"></i> 2000</h5>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- xxx -->
+                         <li>
+                            <div class="itemBox">
+                                <img src="image/category-detail/category-list-img.jpg" class="img-responsive">
+                                <div class="cnt">
+                                    <h3>Auto Metal Direct</h3>
+                                    <h4>Hood Scoop</h4>
+                                    <div class="rating">
+                                       <i class="fa fa-star fill" aria-hidden="true"></i> 
+                                       <i class="fa fa-star fill" aria-hidden="true"></i>
+                                       <i class="fa fa-star fill" aria-hidden="true"></i>
+                                       <i class="fa fa-star" aria-hidden="true"></i>
+                                       <i class="fa fa-star" aria-hidden="true"></i>
+                                    </div>
+                                    <h5><i class="fa fa-inr" aria-hidden="true"></i> 2000</h5>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- xxx -->
+                    </ul>
                     
                 </div>
             </div>
@@ -442,6 +545,11 @@
                 },
             },
         });
+
+        $('.categoryMenuSlider .item a').click(function(){
+         $('.categoryMenuSlider .item a').removeClass('active');
+         $(this).addClass('active');   
+        })
 
         // brand slider
         $('.brandSlider').owlCarousel2({

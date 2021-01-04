@@ -111,3 +111,48 @@
    font-family: 'FontAwesome';
    content: "\f105";font-size:30px;
 }
+.categorydtlPage .sliderBox .categoryMenuSlider .item a.active span{
+color:#ff2d37;
+}
+.categorydtlPage .sliderBox .brandSlider .item{
+  position:relative;
+}
+.categorydtlPage .sliderBox .brandSlider .item label{margin:0;position:relative;cursor:pointer;width:100%;height:64px;}
+.categorydtlPage .sliderBox .brandSlider .item label img{
+  height:60px; 
+}
+.categorydtlPage .sliderBox .brandSlider .item input[type=checkbox]{
+ position:absolute;top:0;left:0;height:100%;width:100%;opacity:0;
+ margin:0 !important;outline:0 !important; 
+}
+.categorydtlPage .sliderBox .brandSlider .item input[type=checkbox]:checked ~ span{
+    position: absolute;width: 100%;height: 3px;bottom: 0;
+    left: 0;background: #ff2d37;
+}
+
+.categorydtlPage .categoryList{
+display:flex;flex-wrap:wrap;margin:30px -10px 0;
+}
+.categorydtlPage .categoryList li{
+flex:0 0 33.3%;max-width:33.3%;padding:0 10px;margin-bottom:20px;
+}
+.categorydtlPage .h1, .categorydtlPage .h2, .categorydtlPage .h3, .categorydtlPage h1, 
+.categorydtlPage h2, .categorydtlPage h3, .categorydtlPage .h4, .categorydtlPage .h5,
+.categorydtlPage .h6, .categorydtlPage h4, .categorydtlPage h5, .categorydtlPage h6{
+  margin-bottom:9px;
+}
+.categorydtlPage .categoryList li .itemBox{
+  box-shadow:0 0 20px rgba(0,0,0,0.06);padding:15px;border-radius:4px;
+}
+.categorydtlPage .categoryList li img{
+  height:200px;
+}
+.categorydtlPage .categoryList li .cnt h4{
+  color:#b39f9f;
+}
+.categorydtlPage .categoryList li .cnt .rating{
+  font-size:18px;margin-bottom:10px;
+}
+.categorydtlPage .categoryList li .cnt .rating i{color:#ccc;}
+.categorydtlPage .categoryList li .cnt .rating i.fill{color:#fda700;}
+.categorydtlPage .categoryList li .cnt h5{font-size:22px;}
