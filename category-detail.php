@@ -22,13 +22,15 @@
                 <div class="filterTitle__left">
                     <h1>FIND PARTS FOR RENAULT 5 (122_) 800 710 0.8 (1221, 1391), 37 HP</h1>
                 </div>
-                <div class="filterTitle__right">
+                <div class="filterTitle__right"> 
                     <a href="javascript:void(0);">
                         Change Vehicle
                     </a>
                 </div>
             </div>
+            
             <div class="mainRow">
+                <a href="javascript:void(0);" class="fixedIcon"><i class="fa" aria-hidden="true"></i></a>
                 <div class="mainRow__left">
                     <h2 class="title">
                         Find parts for RENAULT 5 (122_) 800 710 0.8 (1221, 1391), 37 HP
@@ -518,6 +520,10 @@
     </div>
     <script type="text/javascript">
     $(document).ready(function() {
+      $(".fixedIcon").click(function(){
+        $('.categorydtlPage .mainRow').toggleClass('openMenu');
+        $('body').toggleClass('overflowClass');
+      })
         $('.categoryMenuSlider').owlCarousel2({
             margin: 25,
             loop: false,
@@ -538,7 +544,7 @@
                     items: 4
                 },
                 992: {
-                    items: 6
+                    items: 4
                 },
                 1200: {
                     items: 5
@@ -560,19 +566,16 @@
             nav: true,
             responsive: {
                 0: {
-                    items: 1
-                },
-                360: {
                     items: 2
                 },
-                480: {
+                370: {
                     items: 3
                 },
-                660: {
+                480: {
                     items: 4
                 },
-                992: {
-                    items: 6
+                600: {
+                    items: 5
                 },
                 1200: {
                     items: 6
